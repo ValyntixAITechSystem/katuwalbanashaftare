@@ -65,3 +65,14 @@ kotwal-bansa-bhatika/
 │       ├── familyTreeBuilder.js
 │       ├── relationshipValidator.js
 │       └── helpers.js
+
+
+
+
+
+
+
+
+
+
+mongodb+srv://<db_username>:dvKJq8BEDYyxsFyE@cluster0.bmezdbp.mongodb.net/?appName=Cluster0
