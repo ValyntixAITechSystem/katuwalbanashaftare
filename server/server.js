@@ -88,7 +88,7 @@ const app = express();
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: {
-    origin: process.env.FRONTEND_URL || 'https://katuwalbanshabatika.netlify.app/',
+    origin: process.env.FRONTEND_URL || 'https://katuwalbanshabatika.netlify.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     credentials: true,
   },
@@ -109,7 +109,7 @@ app.use(helmet({
 
 app.use(compression());
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'https://katuwalbanshabatika.netlify.app/',
+  origin: process.env.FRONTEND_URL || 'https://katuwalbanshabatika.netlify.app',
   credentials: true,
 }));
 
@@ -175,7 +175,7 @@ io.on('connection', (socket) => {
 export { io };
 
 // Start server
-const PORT = process.env.PORT || "https://katuwalbanshabatika.netlify.app/";
+const PORT = process.env.PORT || "https://katuwalbanshabatika.netlify.app";
 
 connectDB()
   .then(() => {
