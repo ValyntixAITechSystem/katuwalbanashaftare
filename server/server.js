@@ -175,7 +175,7 @@ io.on('connection', (socket) => {
 export { io };
 
 // Start server
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || "https://katuwalbanshabatika.netlify.app/";
 
 connectDB()
   .then(() => {
