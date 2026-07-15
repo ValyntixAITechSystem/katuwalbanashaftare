@@ -37,7 +37,7 @@ export const Sidebar = ({ isOpen, setIsOpen }) => {
             animate={{ opacity: 1 }}
             className="font-bold text-lg text-gray-800"
           >
-            Katuwal Batika
+          katuwal Banha Batika
           </motion.span>
         )}
         <button

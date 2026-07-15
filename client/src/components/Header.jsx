@@ -8,7 +8,7 @@ export const Header = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <span className="text-xl font-bold text-gray-800">Katuwal Batika</span>
+              <span className="text-xl font-bold text-gray-800">Katuwal Bansha Batika</span>
               <span className="text-sm text-gray-500">| NDS Software</span>
             </Link>
           </div>
